@@ -1,0 +1,109 @@
+/* {
+  border: 1px solid red !important;
+}/**/
+
+body{
+    background-color: #f4f4f4;
+    font-family: 'Libre Baskerville',serif;
+}
+
+header{
+    width: 100%;
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-name{
+    order:2;
+    width: 100%;
+}
+
+.logo{
+    order:1;
+    width: 100%;
+}
+
+.logo img{
+    display: block;
+    height: 100%;
+    width: auto;
+    margin:auto;
+}
+
+
+.container{
+    margin-top:10px;
+}
+.press{
+    height:100%;
+}
+
+.press img{
+    width:100%;
+}
+.row{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.aboutMe img{
+    width:100%;
+}
+
+.footer{
+    text-align:center;
+    font-size: 15px;
+}
+
+.modal-body img{
+    width: 100%;
+}
+
+
+
+hr{
+    border-color:black;
+    border-width:1px;
+}
+
+.headRow hr{
+    border-width:2px;
+}
+.featuredWorks{
+    margin-top:20px;
+    height:200px;
+    overflow: hidden;
+}
+.fitImg img{
+    height: 200px;
+    margin:auto;
+}
+
+
+@media screen and (min-width: 345px){
+    header{
+    }
+}
+
+
+@media screen and (min-width: 768px){
+    header{
+    }
+
+    .logo img{
+        margin:0px;
+        margin-top: 10px;
+    }
+
+    .logo{
+        width: 30%;
+    }
+    .header-name{
+        width: 70%;
+    }
+
+}
+
+
+
