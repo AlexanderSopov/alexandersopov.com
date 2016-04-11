@@ -60,6 +60,12 @@ header{
     width: 100%;
 }
 
+.button{
+    cursor:pointer;
+}
+
+
+
 
 
 hr{
@@ -69,15 +75,6 @@ hr{
 
 .headRow hr{
     border-width:2px;
-}
-.featuredWorks{
-    margin-top:20px;
-    height:200px;
-    overflow: hidden;
-}
-.fitImg img{
-    height: 200px;
-    margin:auto;
 }
 
 
