@@ -62,10 +62,37 @@ header{
 
 .button{
     cursor:pointer;
+    margin-bottom:20px;
+}
+
+.hireRow{
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.hireImg{
+    width:100%;
+    height:auto;
 }
 
 
-
+/**
+*  FEATURED WORKS BUTTONS SEPARATED BY ORDER
+*
+*.fw1{
+*    padding-right: 0px;
+*}
+*
+*.fw2{
+*    padding-right: 7px;
+*    padding-left: 8px;
+*}
+*
+*.fw3{
+*    padding-left: 0px;
+*}
+*
+*/
 
 
 hr{
